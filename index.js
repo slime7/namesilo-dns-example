@@ -30,7 +30,6 @@ const main = async () => {
   } catch (err) {
     throw "获取 ip 失败";
   }
-  throw '';
 
   // 获取 dns 记录列表
   try {
